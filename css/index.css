@@ -1,0 +1,97 @@
+/* line 1, ../sass/index.sass */
+.content {
+  background: #CCC;
+}
+/* line 4, ../sass/index.sass */
+.content .eatimage {
+  display: inline-block;
+  background: url(../images/pusheeneat.png);
+  background-size: cover;
+  background-position: center;
+  margin-top: 50px;
+  width: 150px;
+  height: 120px;
+}
+/* line 12, ../sass/index.sass */
+.content .eat2image {
+  display: inline-block;
+  background: url(../images/pusheeneat2.png);
+  background-size: cover;
+  background-position: center;
+  margin-top: 50px;
+  width: 150px;
+  height: 120px;
+}
+/* line 20, ../sass/index.sass */
+.content .keyimage {
+  display: inline-block;
+  background: url(../images/pusheenkey.png);
+  background-size: cover;
+  background-position: center;
+  margin-top: 50px;
+  width: 150px;
+  height: 120px;
+}
+/* line 29, ../sass/index.sass */
+.content .button {
+  display: inline-block;
+  text-decoration: none;
+  width: 150px;
+  height: 35px;
+  margin-top: 20px;
+  line-height: 35px;
+  color: #FFF;
+  background: #953A3A;
+}
+/* line 38, ../sass/index.sass */
+.content .newmsg {
+  display: inline-block;
+  color: #555;
+  font-size: 12px;
+  margin-top: 10px;
+}
+/* line 44, ../sass/index.sass */
+.content h1 {
+  margin: 0;
+}
+/* line 46, ../sass/index.sass */
+.content h2 {
+  margin-bottom: 0;
+}
+/* line 48, ../sass/index.sass */
+.content h3 {
+  font-weight: normal;
+  margin-top: 0;
+  font-size: 12px;
+}
+/* line 52, ../sass/index.sass */
+.content form {
+  display: block;
+  padding-top: 10px;
+}
+/* line 56, ../sass/index.sass */
+.content form label {
+  display: inline-block;
+  text-align: left;
+  width: 50px;
+  margin-top: 10px;
+}
+/* line 62, ../sass/index.sass */
+.content form input {
+  outline: none;
+  width: 150px;
+  height: 22px;
+  border: 0px;
+  background: #dfdfdf;
+  border: 1px solid #dfdfdf;
+}
+/* line 70, ../sass/index.sass */
+.content form select {
+  outline: none;
+  width: 152px;
+  box-sizing: content-box;
+  padding: 1px 0px;
+  margin-left: -5px;
+  background: #dfdfdf;
+  border: 1px solid #dfdfdf;
+}

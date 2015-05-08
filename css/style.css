@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/* line 1, ../sass/style.sass */
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 7, ../sass/style.sass */
+body {
+  display: table;
+}
+
+/* line 10, ../sass/style.sass */
+.container {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background: #111;
+}
+
+/* line 18, ../sass/style.sass */
+.phone {
+  display: inline-block;
+  width: 264px;
+  height: 544px;
+  border-radius: 30px;
+  border: 3px solid #A8A8A8;
+  background: #dcdcdc;
+}
+
+/* line 26, ../sass/style.sass */
+.shadow {
+  width: 264px;
+  height: 544px;
+  border-radius: 30px;
+  background: -webkit-linear-gradient(-15deg, rgba(76, 76, 76, 0) 0%, rgba(255, 255, 255, 0.54) 40%, transparent 41%, rgba(19, 19, 19, 0) 100%);
+}
+
+/* line 31, ../sass/style.sass */
+.phoneTop {
+  display: block;
+  text-align: center;
+  height: 60px;
+  width: 264px;
+}
+/* line 37, ../sass/style.sass */
+.phoneTop .cycle {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background: #222;
+  border-radius: 50%;
+}
+/* line 43, ../sass/style.sass */
+.phoneTop .bigCycle {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  background: #222;
+  border-radius: 50%;
+}
+/* line 49, ../sass/style.sass */
+.phoneTop .bar {
+  display: inline-block;
+  width: 30px;
+  height: 2px;
+  margin-left: 10px;
+  margin-bottom: 2px;
+  margin-right: 20px;
+  background: #222;
+  border-radius: 10px;
+}
+
+/* line 59, ../sass/style.sass */
+.screen {
+  display: inline-block;
+  width: 240px;
+  height: 430.08px;
+  background: #FFF;
+  border-radius: 3px;
+  border: 2px solid #000;
+}
+/* line 66, ../sass/style.sass */
+.screen .content {
+  height: 380px;
+  overflow: hidden;
+}
+/* line 69, ../sass/style.sass */
+.screen:before {
+  display: block;
+  position: relative;
+  top: 0px;
+  text-align: right;
+  font-size: 10px;
+  content: "☫ 00:00";
+  color: #FFF;
+  width: 100%;
+  height: 20px;
+  background: #000;
+}
+/* line 80, ../sass/style.sass */
+.screen:after {
+  display: block;
+  position: relative;
+  bottom: 0px;
+  font-weight: bolder;
+  font-size: 10px;
+  line-height: 30px;
+  content: "◁　　　　　○　　　　　□";
+  color: #FFF;
+  width: 100%;
+  height: 30px;
+  background: #000;
+}
+
+/* line 93, ../sass/style.sass */
+.overflow {
+  overflow-Y: auto;
+}
