@@ -27,7 +27,7 @@
 }
 /* line 24, ../sass/order.sass */
 .dtl .title {
-  background: rgba(112, 78, 78, 0.8);
+  background: rgba(0, 0, 0, 0.5);
   width: 240px;
   height: 150px;
   font-size: 24px;
@@ -47,6 +47,12 @@
 }
 
 /* line 39, ../sass/order.sass */
+.dtl2 {
+  background: url(../images/1.jpg);
+  background-size: cover;
+}
+
+/* line 43, ../sass/order.sass */
 h2 {
   font-size: 16px;
   font-weight: normal;
@@ -56,25 +62,25 @@ h2 {
   padding-left: 10px;
 }
 
-/* line 47, ../sass/order.sass */
+/* line 51, ../sass/order.sass */
 hr {
   border: 1px solid #CCC;
   border-top: 0px;
   width: 90%;
 }
 
-/* line 52, ../sass/order.sass */
+/* line 56, ../sass/order.sass */
 .store {
   display: inline-block;
   text-decoration: none;
   width: 100px;
-  height: 150px;
+  height: 135px;
   margin: 5px;
   border-radius: 8px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
   color: #333;
 }
-/* line 61, ../sass/order.sass */
+/* line 65, ../sass/order.sass */
 .store .storeImg {
   display: inline-block;
   text-decoration: none;
@@ -85,7 +91,7 @@ hr {
   width: 100px;
   height: 80px;
 }
-/* line 70, ../sass/order.sass */
+/* line 74, ../sass/order.sass */
 .store .storeImg2 {
   display: inline-block;
   text-decoration: none;
@@ -96,15 +102,68 @@ hr {
   width: 100px;
   height: 80px;
 }
-/* line 79, ../sass/order.sass */
+/* line 83, ../sass/order.sass */
+.store .storeImg3 {
+  display: inline-block;
+  text-decoration: none;
+  background: url(../images/1.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px 8px 0 0;
+  width: 100px;
+  height: 80px;
+}
+/* line 92, ../sass/order.sass */
 .store .storeTitle {
   padding-left: 5px;
   font-size: 16px;
   text-align: left;
 }
-/* line 83, ../sass/order.sass */
+/* line 96, ../sass/order.sass */
 .store .storeSubtitle {
   padding-left: 5px;
   font-size: 10px;
   text-align: left;
+}
+
+/* line 101, ../sass/order.sass */
+form {
+  display: block;
+  padding-top: 10px;
+}
+/* line 105, ../sass/order.sass */
+form label {
+  display: inline-block;
+  text-align: left;
+  width: 70px;
+  margin-top: 10px;
+}
+/* line 111, ../sass/order.sass */
+form select {
+  outline: none;
+  width: 130px;
+  box-sizing: content-box;
+  padding: 1px 0px;
+  margin-left: -5px;
+  background: #dfdfdf;
+  border: 1px solid #dfdfdf;
+}
+
+/* line 120, ../sass/order.sass */
+.button {
+  display: inline-block;
+  text-decoration: none;
+  width: 150px;
+  height: 35px;
+  margin-top: 20px;
+  line-height: 35px;
+  color: #FFF;
+  background: #953A3A;
+}
+
+/* line 130, ../sass/order.sass */
+.inf {
+  text-align: left;
+  width: 100%;
+  padding-left: 15px;
 }
