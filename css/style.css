@@ -87,9 +87,10 @@ body {
 /* line 66, ../sass/style.sass */
 .screen .content {
   height: 380px;
-  overflow: hidden;
+  overflow-X: hidden;
+  overflow-Y: auto;
 }
-/* line 69, ../sass/style.sass */
+/* line 70, ../sass/style.sass */
 .screen:before {
   display: block;
   position: relative;
@@ -102,7 +103,7 @@ body {
   height: 20px;
   background: #000;
 }
-/* line 80, ../sass/style.sass */
+/* line 81, ../sass/style.sass */
 .screen:after {
   display: block;
   position: relative;
@@ -117,7 +118,33 @@ body {
   background: #000;
 }
 
-/* line 93, ../sass/style.sass */
+/* line 94, ../sass/style.sass */
 .overflow {
   overflow-Y: auto;
+}
+
+/* line 114, ../sass/style.sass */
+ul.color {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  color: #FFF;
+}
+/* line 119, ../sass/style.sass */
+ul.color li {
+  width: 150px;
+  text-align: left;
+  margin: 10px;
+}
+/* line 123, ../sass/style.sass */
+ul.color .colorBox {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #FFF;
+}
+/* line 128, ../sass/style.sass */
+ul.color .colorCode {
+  display: inline-block;
+  text-align: left;
 }
